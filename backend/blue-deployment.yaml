@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sandeepgompa/backend:1.0.0
+        image: sandeepgompa/backend:3.0.0
         envFrom:
         - configMapRef:
             name: backend
